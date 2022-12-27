@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import NavBar from './components/Navbar'
+import Hero from './components/Hero'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <Hero />
     </div>
   )
 }
