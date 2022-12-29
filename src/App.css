@@ -344,7 +344,56 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
-/* #root {
-  max-width: 1280px;
+
+/*          Skills CSS            */
+.skill {
+  padding: 0 0 0 0px;
+  position: relative;
+}
+
+.skill-bx {
+  background: #151515;
+  border-radius: 24px;
+  text-align: center;
+  padding: 0px 0px;
+  margin-top: -60px;
+}
+
+.skill h2 {
+  padding-top: 30px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.skill p {
+  width: 90%;
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 75px auto;
+}
+
+.skill-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   margin: 0 auto;
-} */
+  padding: 0 0 25px 0;
+  position: relative;
+}
+
+.skill-imgs .item img {
+  width: 100%;
+  margin: 0 auto 15px auto;
+}
+
+.background-image-left {
+  top: 20%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
