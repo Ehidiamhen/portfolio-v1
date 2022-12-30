@@ -263,7 +263,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media screen and (max-width: 991px) {
   nav.navbar.scrolled {
-    padding: 20px 0;
+    padding: 10px 0 0 0;
+  }
+  .logo {
+    width: 170% !important;
   }
 }
 
@@ -314,7 +317,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   align-items: center;
 }
-
+.logo {
+  width: 90%;
+}
+@media screen and (max-width: 480px) {
+  
+}
 .hero button svg {
   font-size: 25px;
   margin-left: 10px;
