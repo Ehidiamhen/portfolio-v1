@@ -11,31 +11,43 @@ export default function Projects () {
           title: "Business Startup",
           description: "Design & Development",
           imgUrl: projImg1,
+          project: "https://github.com",
+          live: "https://google.com",
         },
         {
           title: "Business Startup",
           description: "Design & Development",
           imgUrl: projImg2,
+          project: "https://github.com",
+          live: "https://google.com",
         },
         {
           title: "Business Startup",
           description: "Design & Development",
           imgUrl: projImg3,
+          project: "https://github.com",
+          live: "https://google.com",
         },
         {
           title: "Business Startup",
           description: "Design & Development",
           imgUrl: projImg1,
+          project: "https://github.com",
+          live: "https://google.com",
         },
         {
           title: "Business Startup",
           description: "Design & Development",
           imgUrl: projImg2,
+          project: "https://github.com",
+          live: "https://google.com",
         },
         {
           title: "Business Startup",
           description: "Design & Development",
           imgUrl: projImg3,
+          project: "https://github.com",
+          live: "https://google.com",
         },
     ]
 
