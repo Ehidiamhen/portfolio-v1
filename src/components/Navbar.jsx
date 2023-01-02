@@ -3,9 +3,9 @@ import { Navbar, Container, Nav } from "react-bootstrap"
 
 // import logo from '../assets/img/logo.svg'
 import headerImg from "../assets/img/header-img.svg"
-import navIcon1 from '../assets/img/nav-icon1.svg'
-import navIcon2 from '../assets/img/nav-icon2.svg'
-import navIcon3 from '../assets/img/nav-icon3.svg'
+import navIcon1 from '../assets/img/github.svg'
+import navIcon2 from '../assets/img/nav-icon1.svg'
+import navIcon3 from '../assets/img/twitter.svg'
 
 export default function NavBar () {
     const [activeLink, setActiveLink] = useState('home');
@@ -31,7 +31,7 @@ export default function NavBar () {
 
     const handleExpand = () => {
         let expanded = document.getElementById("navbar-toggler").getAttribute("aria-expanded");
-        expanded == "false" ? expanded = "true" : expanded = "false"
+        expanded == "false" ? expanded = "true" : expanded = "false";
         document.getElementById("navbar-toggler").setAttribute("aria-expanded", expanded);
     }
 
@@ -52,9 +52,9 @@ export default function NavBar () {
               </Nav>
               <span className="navbar-text">
                 <div className="social-icon">
-                    <a href="https://www.linkedin.com/in/ehidiamhen/" target='_blank'><img src={navIcon1} alt="nav1"/></a>
-                    <a href="https://www.facebook.com/profile.php?id=100073186998169" target='_blank'><img src={navIcon2} alt="nav2"/></a>
-                    <a href="https://www.instagram.com/aigbilueseehidiamhen/" target='_blank'><img src={navIcon3} alt="nav3"/></a>
+                    <a href="https://www.github.com/ehidiamhen/" target='_blank'><img src={navIcon1} alt="nav1"/></a>
+                    <a href="https://www.linkedin.com/in/ehidiamhen/" target='_blank'><img src={navIcon2} alt="nav2"/></a>
+                    <a href="https://twitter.com/ehis_eleazar" target='_blank'><img src={navIcon3} alt="nav3"/></a>
                 </div>
                 <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
               </span>
