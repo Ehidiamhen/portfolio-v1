@@ -210,9 +210,11 @@ span.navbar-text {
 }
 
 nav.navbar .navbar-toggler:active, 
-nav.navbar .navbar-toggler:focus {
+nav.navbar .navbar-toggler:focus,
+nav.navbar .navbar-toggler {
   outline: none;
   box-shadow: none;
+  border: 0;
 }
 
 nav.navbar .navbar-toggler-icon {

@@ -8,8 +8,8 @@ import navIcon2 from '../assets/img/nav-icon2.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
 
 export default function NavBar () {
-    const [activeLink, setActiveLink] = useState('home')
-    const [scrolled, setScrolled] = useState(false)
+    const [activeLink, setActiveLink] = useState('home');
+    const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
         const onScroll = () => {
@@ -29,13 +29,19 @@ export default function NavBar () {
         setActiveLink(value);
     }
 
+    const handleExpand = () => {
+        let expanded = document.getElementById("navbar-toggler").getAttribute("aria-expanded");
+        expanded == "false" ? expanded = "true" : expanded = "false"
+        document.getElementById("navbar-toggler").setAttribute("aria-expanded", expanded);
+    }
+
     return (
       <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
             <Navbar.Brand href="/">
                 <img src={headerImg} alt="logo" className="logo" />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" aria-expanded="false" onClick={handleExpand} id="navbar-toggler">
                 <span className="navbar-toggler-icon"></span>
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
