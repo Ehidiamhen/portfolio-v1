@@ -107,6 +107,10 @@ nav.navbar a.navbar-brand {
   width: 9%;
 }
 
+.logo {
+  width: 90%;
+}
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
@@ -170,7 +174,7 @@ span.navbar-text {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
-.navbar-text button {
+.navbar-text .connect {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
@@ -182,11 +186,11 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 
-.navbar-text button span {
+.navbar-text .connect span {
   z-index: 1;
 }
 
-.navbar-text button::before {
+.navbar-text .connect::before {
   content: "";
   width: 0%;
   height: 100%;
@@ -198,11 +202,11 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 
-.navbar-text button:hover {
+.navbar-text .connect:hover {
   color: #121212;
 }
 
-.navbar-text button:hover::before {
+.navbar-text .connect:hover::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -311,7 +315,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 96%;
 }
 
-.hero button {
+.hero a {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
@@ -320,20 +324,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   align-items: center;
 }
-.logo {
-  width: 90%;
+
+.hero a:hover {
+  color: #fff;
 }
-@media screen and (max-width: 480px) {
-  
-}
-.hero button svg {
+
+.hero a svg {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
 
-.hero button:hover svg {
+.hero a:hover svg {
   margin-left: 25px;
 }
 

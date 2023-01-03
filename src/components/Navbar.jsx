@@ -56,7 +56,7 @@ export default function NavBar () {
                     <a href="https://www.linkedin.com/in/ehidiamhen/" target='_blank'><img src={navIcon2} alt="nav2"/></a>
                     <a href="https://twitter.com/ehis_eleazar" target='_blank'><img src={navIcon3} alt="nav3"/></a>
                 </div>
-                <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                <a href="#connect" className="connect"><span>Let's Connect</span></a>
               </span>
             </Navbar.Collapse>
         </Container>

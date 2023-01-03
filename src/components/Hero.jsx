@@ -48,7 +48,7 @@ export default function Hero () {
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1 className="txt-rotate">{`Hi I'm Ehiz `}<span className="wrap">{text}</span></h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nemo eaque nulla iusto nostrum hic! Aut facere deleniti molestias, fugiat nihil aspernatur accusamus odit magni consectetur, provident numquam labore ex?</p>
-                        <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+                        <a href="#connect">Let's Connect <ArrowRightCircle size={25} /></a>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="header" />
