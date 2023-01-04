@@ -275,6 +275,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .logo {
     width: 170% !important;
   }
+  .hero h1 {
+    font-size: 45px !important;
+  }
+  .project p {
+    width: 90% !important;
+  }
+  .proj-txtx h4 {
+    font-size: x-large !important;
+  }
 }
 
 /*          Hero CSS            */
@@ -494,6 +503,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+@media screen and (max-width: 576px) and (min-width: 375px) {
+  .proj-txtx h4 {
+    font-size: 30px !important;
+  }
 }
 
 /*          Contact CSS            */

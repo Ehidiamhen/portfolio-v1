@@ -67,7 +67,7 @@ export default function Contact () {
                                 </Col>
                                 <Col className="px-1">
                                     <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)} required></textarea>
-                                    <button type="submit"><span>{buttonText}</span></button>
+                                    <button type="submit" className="ms-2"><span>{buttonText}</span></button>
                                 </Col>
                                 {
                                     status.message &&
