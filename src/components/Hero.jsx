@@ -6,7 +6,7 @@ import headerImg from "../assets/img/header-img.svg"
 export default function Hero () {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer" ];
+    const toRotate = ["Computer Programmer", "Software Developer", "Frontend Engineer" ];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100)
     const period = 2000;
@@ -46,7 +46,7 @@ export default function Hero () {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1 className="txt-rotate">{`Hi I'm Ehiz `}<span className="wrap">{text}</span></h1>
+                        <h1 className="txt-rotate">{`Hi I'm Ehiz, a `}<span className="wrap">{text}</span></h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nemo eaque nulla iusto nostrum hic! Aut facere deleniti molestias, fugiat nihil aspernatur accusamus odit magni consectetur, provident numquam labore ex?</p>
                         <a href="#connect">Let's Connect <ArrowRightCircle size={25} /></a>
                     </Col>
