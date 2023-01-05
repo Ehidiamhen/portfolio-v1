@@ -40,6 +40,7 @@ export default function Contact () {
         } else {
             setStatus({success: false, message: "Something went wrong, please try again."});
         }
+        setTimeout(() => setStatus({}), 5000);
     };
 
     return (
@@ -72,7 +73,7 @@ export default function Contact () {
                                 {
                                     status.message &&
                                     <Col sm={12} className="px-1 mt-3">
-                                        <p className={status.success === false ? "danger" : "success"} id="status">{status.message}</p>
+                                        <p className={status.success === false ? "ms-2 danger" : "ms-2 success"} id="status">{status.message}</p>
                                     </Col>
                                 }
                             </Row>
