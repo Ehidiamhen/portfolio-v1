@@ -325,6 +325,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .hero a {
+  width: fit-content;
   color: #fff;
   font-weight: 700;
   font-size: 20px;
