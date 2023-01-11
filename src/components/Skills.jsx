@@ -19,7 +19,7 @@ export default function Skills () {
                     <Col>
                       <div className="skill-bx">
                         <h2>Skills</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus magni quisquam, iste quaerat laudantium officiis odio deserunt magnam sed architecto necessitatibus cupiditate earum. Vitae inventore exercitationem iusto delectus eos aliquid?</p>
+                        <p>Here are some of the tools and technologies I have worked with:</p>
                         <div className="skill-imgs">
                             <div className="item">
                                 <img src={html5} alt="skill-img" title="HTML"/>

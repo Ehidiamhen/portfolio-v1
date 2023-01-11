@@ -395,7 +395,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px auto 75px auto;
+  margin: 14px auto 45px auto;
 }
 
 .skill-imgs {
@@ -410,7 +410,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-imgs .item img {
-  width: 100%;
+  width: 80%;
   margin: 0 auto 15px auto;
 }
 

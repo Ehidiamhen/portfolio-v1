@@ -57,7 +57,7 @@ export default function Projects () {
                 <Row>
                     <Col>
                       <h2>Projects</h2>
-                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque omnis hic deserunt culpa repudiandae aut voluptate ullam magnam? Iste facere esse neque, inventore blanditiis dolorem eligendi possimus deserunt rerum mollitia.</p>                      
+                      <p>These are some of my featured projects. You can view more on my Github.</p>                      
                             <Row>
                                 {
                                     projects.map((project, index) => {
