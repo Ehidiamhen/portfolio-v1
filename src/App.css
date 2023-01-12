@@ -453,6 +453,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 24px;
 }
 
+.proj-imgbx > img {
+  aspect-ratio: 16 / 11.8;
+  object-fit: cover;
+}
+
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);;
@@ -490,7 +495,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.1em;
 }
 
-.proj-txtx span {
+.proj-txtx span:first-of-type {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;

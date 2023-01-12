@@ -1,53 +1,56 @@
 import { Container, Row, Col } from "react-bootstrap"
 import ProjectCard from "./ProjectCard"
-import projImg1 from '../assets/img/project-img1.png'
-import projImg2 from '../assets/img/project-img2.png'
-import projImg3 from '../assets/img/project-img3.png'
+import projImg1 from '../assets/img/project-img0.png'
+import projImg2 from '../assets/img/project-img01.png'
+import projImg3 from '../assets/img/project-img03.png'
+import projImg4 from '../assets/img/project-img04.png'
+import projImg5 from '../assets/img/project-img05.png'
+import projImg6 from '../assets/img/project-img06.png'
 import colorsharp2 from '../assets/img/color-sharp2.png'
 
 export default function Projects () {
     const projects = [
         {        
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "Certificate Generator",
+          description: "A web app for generating single and bulk certificates",
           imgUrl: projImg1,
-          project: "https://github.com",
-          live: "https://google.com",
+          project: "https://github.com/workshopapps/certificategenerator.web",
+          live: "https://certgo.app",
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "Auth Library",
+          description: "A library of authentication codes for developers",
           imgUrl: projImg2,
-          project: "https://github.com",
-          live: "https://google.com",
+          project: "https://github.com/zuri-training/TeamGorilla-Auth_wiki",
+          live: "https://auth-wiki-leroicodes.vercel.app/",
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "Meta-bnb",
+          description: "Rent a bed ’n breakfast in the metaverse",
           imgUrl: projImg3,
-          project: "https://github.com",
-          live: "https://google.com",
+          project: "https://github.com/Ehidiamhen/meta-bnb",
+          live: "https://meta-bnb-five.vercel.app/",
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg1,
-          project: "https://github.com",
-          live: "https://google.com",
+          title: "React Calculator",
+          description: "A simple calculator built with ReactJS",
+          imgUrl: projImg4,
+          project: "https://github.com/Ehidiamhen/react-calculator-app",
+          live: "https://react-calculator-ehidiamhen.vercel.app/",
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg2,
-          project: "https://github.com",
-          live: "https://google.com",
+          title: "Linktree Clone",
+          description: "A web app to cluster your numerous links",
+          imgUrl: projImg5,
+          project: "https://github.com/Ehidiamhen/linktree-contact",
+          live: "https://linktree-contact.vercel.app/",
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg3,
-          project: "https://github.com",
-          live: "https://google.com",
+          title: "Profile Card",
+          description: "A developer profile card",
+          imgUrl: projImg6,
+          project: "https://github.com/Ehidiamhen/Profile-Card",
+          live: "https://ehidiamhen.github.io/Profile-Card/",
         },
     ]
 
