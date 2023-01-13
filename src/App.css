@@ -3,16 +3,19 @@
   font-family: Centra;
   src: url('./assets/font/CentraNo2-Bold.ttf');
   font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: Centra;
   src: url('./assets/font/CentraNo2-Medium.ttf');
   font-weight: 500;
+  font-display: swap;
 }
 @font-face {
   font-family: Centra;
   src: url('./assets/font/CentraNo2-Book.ttf');
   font-weight: 400;
+  font-display: swap;
 }
 
 /* Default CSS */
