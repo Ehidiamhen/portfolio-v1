@@ -128,10 +128,11 @@ nav.navbar.scrolled {
 
 nav.navbar a.navbar-brand {
   width: 9%;
+  padding: 0;
 }
 
 .logo {
-  width: 90%;
+  width: 100%;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -296,7 +297,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 10px 0 0 0;
   }
   .logo {
-    width: 170% !important;
+    width: 200% !important;
   }
   .hero h1 {
     font-size: 45px !important;
@@ -633,8 +634,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-repeat: no-repeat;
 }
 
-.footer img {
+.footer > .container > .row > .col-sm-6 > img {
   width: 26%;
+  margin-top: -30px;
 }
 
 .footer p {
