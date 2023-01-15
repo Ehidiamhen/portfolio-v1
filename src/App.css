@@ -299,6 +299,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .logo {
     width: 200% !important;
   }
+  .navbar-collapse::before {
+    content: "";
+    position: absolute;
+    left: -50%;
+    bottom: 0;
+    width: 200%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .navbar-link {
+    padding-block: 15px !important;
+  }
+  .navbar-link:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
   .hero h1 {
     font-size: 45px !important;
   }
@@ -307,6 +321,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   .proj-txtx h4 {
     font-size: x-large !important;
+  }
+
+  @media screen and (max-width: 401px) {
+    .navbar-text .connect {
+      padding: 15px 17px;
+    }
+    .social-icon a, .social-icon a::before {
+      width: 26px;
+      height: 26px;
+    }
   }
 }
 
