@@ -123,7 +123,8 @@ nav.navbar {
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: rgba(18, 18, 18, 0.8);
+  backdrop-filter: blur(3px);
 }
 
 nav.navbar a.navbar-brand {
@@ -293,25 +294,36 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media screen and (max-width: 991px) {
-  nav.navbar.scrolled {
+  nav.navbar.scrolled, nav.navbar:has(.navbar-toggler[aria-expanded="true"]) {
     padding: 10px 0 0 0;
+  }
+  .navbar-toggler[aria-expanded="true"] + .navbar-collapse{
+    height: 100vh;
+    transition: -0.3s ease-in-out;
+  }
+  nav.navbar:has(.navbar-toggler[aria-expanded="true"]) {
+    padding: 0px 0;
+    background-color: rgba(18, 18, 18, 0.8);
+    backdrop-filter: blur(3px);
   }
   .logo {
     width: 200% !important;
   }
-  .navbar-collapse::before {
-    content: "";
-    position: absolute;
-    left: -50%;
-    bottom: 0;
-    width: 200%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  }
   .navbar-link {
-    padding-block: 15px !important;
+    padding-block: 25px !important;
   }
   .navbar-link:not(:last-child) {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .navbar-collapse .navbar-text {
+    flex-direction: column-reverse;
+    align-items: flex-start !important;
+    padding-top: 25px !important;
+  }
+  .navbar-collapse .navbar-text .social-icon {
+    margin-inline: 0;
+    position: absolute;
+    bottom: 10%;
   }
   .hero h1 {
     font-size: 45px !important;
@@ -328,8 +340,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
       padding: 15px 17px;
     }
     .social-icon a, .social-icon a::before {
-      width: 26px;
-      height: 26px;
+      width: 32px;
+      height: 32px;
     }
   }
 }
