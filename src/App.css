@@ -304,7 +304,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   nav.navbar:has(.navbar-toggler[aria-expanded="true"]) {
     padding: 0px 0;
     background-color: rgba(18, 18, 18, 0.8);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(4px);
   }
   .logo {
     width: 200% !important;
@@ -323,7 +323,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .navbar-collapse .navbar-text .social-icon {
     margin-inline: 0;
     position: absolute;
-    bottom: 10%;
+    bottom: 15vh;
   }
   .hero h1 {
     font-size: 45px !important;
