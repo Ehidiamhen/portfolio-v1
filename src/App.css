@@ -123,7 +123,7 @@ nav.navbar {
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: rgba(18, 18, 18, 0.8);
+  background-color: rgba(18, 18, 18, 0.95);
   backdrop-filter: blur(3px);
 }
 
@@ -303,7 +303,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   nav.navbar:has(.navbar-toggler[aria-expanded="true"]) {
     padding: 0px 0;
-    background-color: rgba(18, 18, 18, 0.8);
+    background-color: rgba(18, 18, 18, 0.95);
     backdrop-filter: blur(4px);
   }
   .logo {
@@ -425,9 +425,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-.txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
-}
 
 /*          Skills CSS            */
 .skill {
