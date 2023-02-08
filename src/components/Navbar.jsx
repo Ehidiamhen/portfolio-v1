@@ -36,7 +36,7 @@ export default function NavBar () {
     }
 
     return (
-      <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+      <Navbar collapseOnSelect expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
             <Navbar.Brand href="/">
                 <img src={headerImg} alt="logo" className="logo" />
@@ -46,9 +46,9 @@ export default function NavBar () {
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">
-                <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-                <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => {onUpdateActiveLink('home'); handleExpand()}}>Home</Nav.Link>
+                <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => {onUpdateActiveLink('skills'); handleExpand()}}>Skills</Nav.Link>
+                <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => {onUpdateActiveLink('projects'); handleExpand()}}>Projects</Nav.Link>
               </Nav>
               <span className="navbar-text">
                 <div className="social-icon">
@@ -56,7 +56,7 @@ export default function NavBar () {
                     <a href="https://www.linkedin.com/in/ehidiamhen/" target='_blank'><img src={navIcon2} alt="nav2"/></a>
                     <a href="https://twitter.com/ehis_eleazar" target='_blank'><img src={navIcon3} alt="nav3"/></a>
                 </div>
-                <a href="#connect" className="connect"><span>Let’s Connect</span></a>
+                <Nav.Link href="#connect" className="connect" onClick={handleExpand}><span>Let’s Connect</span></Nav.Link>
               </span>
             </Navbar.Collapse>
         </Container>
