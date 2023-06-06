@@ -4,8 +4,8 @@ import projImg1 from '../assets/img/project-img0.png'
 import projImg2 from '../assets/img/project-img01.png'
 import projImg3 from '../assets/img/project-img03.png'
 import projImg4 from '../assets/img/project-img04.png'
-import projImg5 from '../assets/img/project-img05.png'
-import projImg6 from '../assets/img/project-img06.png'
+import projImg6 from '../assets/img/project-img05.png'
+import projImg5 from '../assets/img/project-img06.png'
 import colorsharp2 from '../assets/img/color-sharp2.png'
 
 export default function Projects () {
@@ -32,25 +32,25 @@ export default function Projects () {
           live: "https://meta-bnb-five.vercel.app/",
         },
         {
+          title: "Periodic Table",
+          description: "A web app displaying all the elements and additional information",
+          imgUrl: projImg4,
+          project: "https://github.com/Ehidiamhen/periodic-table",
+          live: "https://periodic-chart.netlify.app",
+        },
+        {
           title: "React Calculator",
           description: "A simple calculator built with ReactJS",
-          imgUrl: projImg4,
+          imgUrl: projImg5,
           project: "https://github.com/Ehidiamhen/react-calculator-app",
           live: "https://react-calculator-ehidiamhen.vercel.app/",
         },
         {
           title: "Linktree Clone",
           description: "A web app to cluster your numerous links",
-          imgUrl: projImg5,
+          imgUrl: projImg6,
           project: "https://github.com/Ehidiamhen/linktree-contact",
           live: "https://linktree-contact.vercel.app/",
-        },
-        {
-          title: "Profile Card",
-          description: "A developer profile card",
-          imgUrl: projImg6,
-          project: "https://github.com/Ehidiamhen/Profile-Card",
-          live: "https://ehidiamhen.github.io/Profile-Card/",
         },
     ]
 
