@@ -25,11 +25,11 @@ export default function Projects () {
           live: "https://auth-wiki-leroicodes.vercel.app/",
         },
         {
-          title: "Meta-bnb",
-          description: "Rent a bed ’n breakfast in the metaverse",
+          title: "Pic to PDF",
+          description: "Convert images to PDF in seconds",
           imgUrl: projImg3,
-          project: "https://github.com/Ehidiamhen/meta-bnb",
-          live: "https://meta-bnb-five.vercel.app/",
+          project: "https://github.com/Ehidiamhen/image-to-PDF",
+          live: "https://pic-pdf.netlify.app/",
         },
         {
           title: "Periodic Table",
