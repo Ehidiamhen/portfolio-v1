@@ -1,11 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap"
 import ProjectCard from "./ProjectCard"
-import projImg1 from '../assets/img/project-img0.png'
-import projImg2 from '../assets/img/project-img01.png'
-import projImg3 from '../assets/img/project-img03.png'
-import projImg4 from '../assets/img/project-img04.png'
-import projImg6 from '../assets/img/project-img05.png'
-import projImg5 from '../assets/img/project-img06.png'
+import certgo from '../assets/img/projects/certgo.png'
+import swiftshop from '../assets/img/projects/swiftshop.png'
+import pictopdf from '../assets/img/projects/pictopdf.png'
+import authwiki from '../assets/img/projects/authwiki.png'
+import periodic from '../assets/img/projects/periodic.png'
+import linktree from '../assets/img/projects/linktree.png'
 import colorsharp2 from '../assets/img/color-sharp2.png'
 
 export default function Projects () {
@@ -13,42 +13,40 @@ export default function Projects () {
         {        
           title: "Certificate Generator",
           description: "A web app for generating single and bulk certificates",
-          imgUrl: projImg1,
-          project: "https://github.com/workshopapps/certificategenerator.web",
+          imgUrl: certgo,
           live: "https://certgo.app",
         },
         {
-          title: "Auth Library",
-          description: "A library of authentication codes for developers",
-          imgUrl: projImg2,
-          project: "https://github.com/zuri-training/TeamGorilla-Auth_wiki",
-          live: "https://auth-wiki-leroicodes.vercel.app/",
+          title: "SwiftShop",
+          description: "E-commerce platform facilitating online purchases and delivery from local stores",
+          imgUrl: swiftshop,
+          live: "https://www.swiftshopworld.com/",
         },
         {
           title: "Pic to PDF",
           description: "Convert images to PDF in seconds",
-          imgUrl: projImg3,
+          imgUrl: pictopdf,
           project: "https://github.com/Ehidiamhen/image-to-PDF",
           live: "https://pic-pdf.netlify.app/",
         },
         {
+          title: "Auth Library",
+          description: "A library of authentication codes for developers",
+          imgUrl: authwiki,
+          project: "https://github.com/zuri-training/TeamGorilla-Auth_wiki",
+          live: "https://auth-wiki-leroicodes.vercel.app/",
+        },
+        {
           title: "Periodic Table",
           description: "A web app displaying all the elements and additional information",
-          imgUrl: projImg4,
+          imgUrl: periodic,
           project: "https://github.com/Ehidiamhen/periodic-table",
           live: "https://periodic-chart.netlify.app",
         },
         {
-          title: "React Calculator",
-          description: "A simple calculator built with ReactJS",
-          imgUrl: projImg5,
-          project: "https://github.com/Ehidiamhen/react-calculator-app",
-          live: "https://react-calculator-ehidiamhen.vercel.app/",
-        },
-        {
           title: "Linktree Clone",
-          description: "A web app to cluster your numerous links",
-          imgUrl: projImg6,
+          description: "A web app to cluster my links",
+          imgUrl: linktree,
           project: "https://github.com/Ehidiamhen/linktree-contact",
           live: "https://linktree-contact.vercel.app/",
         },
